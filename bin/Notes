@@ -1,0 +1,28 @@
+//lista inicial de clientes para teste
+		 Cliente cliente1 = new Cliente("João", "123456789", 25, "joao@email.com", "Rua A", "Bairro 1", 1, co);
+	        Cliente cliente2 = new Cliente("Maria", "987654321", 30, "maria@email.com", "Rua B", "Bairro 2", 2, co);
+	        Cliente cliente3 = new Cliente("Carlos", "111222333", 35, "carlos@email.com", "Rua C", "Bairro 3", 3, co);
+	        ClienteEspecial clienteEspecial1 = new ClienteEspecial("Ana", "111222333", 28, "ana@email.com", "Rua D", "Bairro 4", 4, co, 10.0);
+	        ClienteEspecial clienteEspecial2 = new ClienteEspecial("Pedro", "111222333", 40, "pedro@email.com", "Rua E", "Bairro 5", 5, co, 10.0);
+
+	        // Adicionar clientes à lista
+	        lista_clientes.add(cliente1);
+	        lista_clientes.add(cliente2);
+	        lista_clientes.add(cliente3);
+	        lista_clientes.add(clienteEspecial1);
+	        lista_clientes.add(clienteEspecial2);
+	        
+	        
+	        
+	        
+	        
+	        
+	        
+// lista inicial de carros para teste
+		lista_Carros.add(new Carro("Gol", "Volkswagen", 2022, "Preto", 40000, 4, 5));
+        lista_Carros.add(new Carro("Civic", "Honda", 2021, "Prata", 80000, 4, 3));
+        lista_Carros.add(new Carro("Onix", "Chevrolet", 2023, "Azul", 45000, 4, 8));
+        lista_Carros.add(new Carro("Corolla", "Toyota", 2020, "Branco", 90000, 4, 2));
+        lista_Carros.add(new Carro("HB20", "Hyundai", 2022, "Vermelho", 42000, 4, 6));	        
+	   
+	
